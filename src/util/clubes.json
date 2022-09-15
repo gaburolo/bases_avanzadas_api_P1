@@ -1,0 +1,219 @@
+
+    {
+      "NombreClub": "Yoga",
+      "Categoria": "Deporte"
+    }
+    {
+      "NombreClub": "Natación",
+      "Categoria": "Deporte"
+    }
+    {
+      "NombreClub": "Fútbol",
+      "Categoria": "Deporte"
+    }
+    {
+      "NombreClub": "Baloncesto",
+      "Categoria": "Deporte"
+    }
+    {
+      "NombreClub": "Béisbol",
+      "Categoria": "Deporte"
+    }
+    {
+      "NombreClub": "Ping-Pong",
+      "Categoria": "Deporte"
+    }
+    {
+      "NombreClub": "Danza",
+      "Categoria": "Arte"
+    }
+    {
+      "NombreClub": "Pintura",
+      "Categoria": "Arte"
+    }
+    {
+      "NombreClub": "Dibujo anatómico",
+      "Categoria": "Arte"
+    }
+    {
+      "NombreClub": "Caligrafía",
+      "Categoria": "Arte"
+    }
+    {
+      "NombreClub": "Fotografía",
+      "Categoria": "Arte"
+    }
+    {
+      "NombreClub": "Videoarte",
+      "Categoria": "Arte"
+    }
+    {
+      "NombreClub": "Arte rupestre",
+      "Categoria": "Arte"
+    }
+    {
+      "NombreClub": "Latín",
+      "Categoria": "Idiomas"
+    }
+    {
+      "NombreClub": "Inglés",
+      "Categoria": "Idiomas"
+    }
+    {
+      "NombreClub": "Portugués",
+      "Categoria": "Idiomas"
+    }
+    {
+      "NombreClub": "Mandarín",
+      "Categoria": "Idiomas"
+    }
+    {
+      "NombreClub": "Coreano",
+      "Categoria": "Idiomas"
+    }
+    {
+      "NombreClub": "Alemán",
+      "Categoria": "Idiomas"
+    }
+    {
+      "NombreClub": "Biología celular",
+      "Categoria": "Biología"
+    }
+    {
+      "NombreClub": "Ecología",
+      "Categoria": "Biología"
+    }
+    {
+      "NombreClub": "Zoología",
+      "Categoria": "Biología"
+    }
+    {
+      "NombreClub": "Biología marina",
+      "Categoria": "Biología"
+    }
+    {
+      "NombreClub": "Botánica",
+      "Categoria": "Biología"
+    }
+    {
+      "NombreClub": "Ofimática",
+      "Categoria": "Informática"
+    }
+    {
+      "NombreClub": "Robótica",
+      "Categoria": "Informática"
+    }
+    {
+      "NombreClub": "Cibernética",
+      "Categoria": "Informática"
+    }
+    {
+      "NombreClub": "Computación",
+      "Categoria": "Informática"
+    }
+    {
+      "NombreClub": "Cuentos de hadas",
+      "Categoria": "Lectura"
+    }
+    {
+      "NombreClub": "Fábulas",
+      "Categoria": "Lectura"
+    }
+    {
+      "NombreClub": "Mitos y leyendas",
+      "Categoria": "Lectura"
+    }
+    {
+      "NombreClub": "Novela gótica",
+      "Categoria": "Lectura"
+    }
+    {
+      "NombreClub": "Romance paranormal",
+      "Categoria": "Lectura"
+    }
+    {
+      "NombreClub": "Aritmetica",
+      "Categoria": "Matemática"
+    }
+    {
+      "NombreClub": "Álgebra",
+      "Categoria": "Matemáticas"
+    }
+
+    {
+      "NombreClub": "Geometría",
+      "Categoria": "Matemáticas"
+    }
+
+    {
+      "NombreClub": "Matemáticas aplicadas",
+      "Categoria": "Matemáticas"
+    }
+
+    {
+      "NombreClub": "Matemáticas discreta",
+      "Categoria": "Matemáticas"
+    }
+
+    {
+      "NombreClub": "Costumbres y tradiciones costarricenses",
+      "Categoria": "Cultura"
+    }
+
+    {
+      "NombreClub": "Civilizaciones antiguas",
+      "Categoria": "Cultura"
+    }
+
+   
+    {
+      "NombreClub": "Economía circular",
+      "Categoria": "Economía"
+    }
+
+    {
+      "NombreClub": "Economía Lineal",
+      "Categoria": "Economía"
+    }
+
+    {
+      "NombreClub": "Economía naranja",
+      "Categoria": "Economía"
+    }
+    {
+      "NombreClub": "Economía mixta",
+      "Categoria": "Economía"
+    }
+    {
+      "NombreClub": "Composición musical",
+      "Categoria": "Música"
+    }
+    {
+      "NombreClub": "Coro",
+      "Categoria": "Música"
+    }
+    {
+      "NombreClub": "Géneros musicales",
+      "Categoria": "Música"
+    }
+    {
+      "NombreClub": "Lectura musical",
+      "Categoria": "Música"
+    }
+    {
+      "NombreClub": "Historia de la música popular",
+      "Categoria": "Música"
+    }
+    {
+      "NombreClub": "Debate político",
+      "Categoria": "Debate"
+    }
+    {
+      "NombreClub": "Debate socrático",
+      "Categoria": "Debate"
+    }
+    {
+      "NombreClub": "Debate instructivo",
+      "Categoria": "Debate"
+    }
+	
