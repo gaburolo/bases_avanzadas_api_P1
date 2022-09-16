@@ -72,3 +72,28 @@ exports.deleteStudent = (req, res) => {
     )
 
 };
+
+exports.getMostSugg= (req, res) => {
+    model.aggregate([
+        {
+           $project: {
+              "_id":0,
+            "NombreC": {
+             "Nombre": "$Nombre",
+             "PrimerA": "$PrimerA",
+             "SegundoA": "$SegundoA"
+         },
+         
+              numberOfCurse: { $cond: { if: { $isArray: "$ClubesInteres" }, then: { $size: "$ClubesInteres" }, else: "NA"} }
+           }
+        },
+     { $sort: {"numberOfCurse": -1}},{ $limit:4}
+     ], (err,docs) =>{
+        if(err){
+            res.status(422).send({error:'Error'})
+        }else{
+            res.send({data: docs})
+        }
+    }
+    )
+};

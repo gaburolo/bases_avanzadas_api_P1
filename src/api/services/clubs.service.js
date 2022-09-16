@@ -73,3 +73,26 @@ exports.deleteClub = (req, res) => {
     )
 
 };
+
+exports.getCategorys = (req, res) => {
+
+    model.distinct("Categoria", (err,docs) => {
+        res.send({
+            docs
+        })
+    })
+};
+
+exports.getCategoryCount = (req, res) => {
+    model.aggregate([{ "$group": {
+        "_id": {"Categoria":"$Categoria"}, 
+        "count": { "$sum": 1 }
+      }}], (err,docs) =>{
+        if(err){
+            res.status(422).send({error:'Error'})
+        }else{
+            res.send({data: docs})
+        }
+    }
+    )
+};

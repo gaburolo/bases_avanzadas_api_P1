@@ -5,6 +5,7 @@ const router = express.Router();
 const path = 'student';
 
 router.get(`/${path}/`, service.getData);
+router.get(`/${path}/mostsugg`, service.getMostSugg);
 //router.get(`/${path}/:id`, service.getOne);
 router.get(`/${path}/:Usuario`, service.getOneUser);
 router.post(`/${path}/`, service.insertData);
