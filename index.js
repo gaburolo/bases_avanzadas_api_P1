@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 
 const dbConnect = require('./src/config/connection');
 const userRoutes = require('./src/api/routes/student.routes');
+const adminRoutes = require('./src/api/routes/admin.routes');
 const clubsRoutes = require('./src/api/routes/clubs.routes');
 const app = express();
 
@@ -23,6 +24,7 @@ app.use(
 )
 
 app.use(userRoutes);
+app.use(adminRoutes);
 app.use(clubsRoutes);
 
 app.get('/',(req,res)=>{

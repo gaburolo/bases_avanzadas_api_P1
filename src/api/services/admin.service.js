@@ -1,6 +1,5 @@
 const { default: mongoose } = require('mongoose');
-const model = require('../models/clubs.model')
-
+const model = require('../models/admin.model')
 const parseId = (id) => {
     return mongoose.Types.ObjectId(id)
 };
@@ -24,7 +23,7 @@ exports.getOne = (req, res) => {
     })
 };
 exports.getOneUser = (req, res) => {
-    model.find({NombreClub: req.params.NombreClub}, (err,docs) => {
+    model.find({Usuario: req.params.Usuario}, (err,docs) => {
         if(err){
             res.status(422).send({error:'Error'})
         }else{
@@ -45,7 +44,7 @@ exports.insertData = (req,res) => {
         
     })
 };
-exports.updateClub = (req, res) => {
+exports.updateAdmin = (req, res) => {
     const body = req.body
 
     model.updateOne({_id: parseId(req.params.id)},
@@ -60,7 +59,7 @@ exports.updateClub = (req, res) => {
     )
 
 };
-exports.deleteClub = (req, res) => {
+exports.deleteAdmin = (req, res) => {
     const body = req.body
     model.deleteOne({_id: parseId(req.params.id)},
         (err,docs) =>{
