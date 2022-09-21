@@ -8,6 +8,8 @@ const path = 'clubs';
 router.get(`/${path}/`, service.getData);
 router.get(`/${path}/category/`, service.getCategorys)
 router.get(`/${path}/categorycount/`, service.getCategoryCount)
+router.get(`/${path}/topcategory/`, service.getTop)
+router.get(`/${path}/bottomcategory/`, service.getBottom)
 //router.get(`/${path}/:id`, service.getOne);
 router.get(`/${path}/:NombreClub`, service.getOneUser);
 router.post(`/${path}/`, service.insertData);

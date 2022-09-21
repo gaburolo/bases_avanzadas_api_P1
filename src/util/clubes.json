@@ -1,219 +1,271 @@
 
     {
       "NombreClub": "Yoga",
-      "Categoria": "Deporte"
+      "Categoria": "Deporte",
+      "CantInters": 1
     }
     {
       "NombreClub": "Natación",
-      "Categoria": "Deporte"
+      "Categoria": "Deporte",
+      "CantInters": 2
     }
     {
       "NombreClub": "Fútbol",
-      "Categoria": "Deporte"
+      "Categoria": "Deporte",
+      "CantInters": 24
     }
     {
       "NombreClub": "Baloncesto",
-      "Categoria": "Deporte"
+      "Categoria": "Deporte",
+      "CantInters": 11
     }
     {
       "NombreClub": "Béisbol",
-      "Categoria": "Deporte"
+      "Categoria": "Deporte",
+      "CantInters": 1
     }
     {
       "NombreClub": "Ping-Pong",
-      "Categoria": "Deporte"
+      "Categoria": "Deporte",
+      "CantInters": 4
     }
     {
       "NombreClub": "Danza",
-      "Categoria": "Arte"
+      "Categoria": "Arte",
+      "CantInters":8
     }
     {
       "NombreClub": "Pintura",
-      "Categoria": "Arte"
+      "Categoria": "Arte",
+      "CantInters":4
     }
     {
       "NombreClub": "Dibujo anatómico",
-      "Categoria": "Arte"
+      "Categoria": "Arte",
+      "CantInters":1
     }
     {
       "NombreClub": "Caligrafía",
-      "Categoria": "Arte"
+      "Categoria": "Arte",
+      "CantInters":2
     }
     {
       "NombreClub": "Fotografía",
-      "Categoria": "Arte"
+      "Categoria": "Arte",
+      "CantInters":7
     }
     {
       "NombreClub": "Videoarte",
-      "Categoria": "Arte"
+      "Categoria": "Arte",
+      "CantInters":9
     }
     {
       "NombreClub": "Arte rupestre",
-      "Categoria": "Arte"
+      "Categoria": "Arte",
+      "CantInters":10
     }
     {
       "NombreClub": "Latín",
-      "Categoria": "Idiomas"
+      "Categoria": "Idiomas",
+      "CantInters":1
     }
     {
       "NombreClub": "Inglés",
-      "Categoria": "Idiomas"
+      "Categoria": "Idiomas",
+      "CantInters": 15
     }
     {
       "NombreClub": "Portugués",
-      "Categoria": "Idiomas"
+      "Categoria": "Idiomas",
+      "CantInters":8
     }
     {
       "NombreClub": "Mandarín",
-      "Categoria": "Idiomas"
+      "Categoria": "Idiomas",
+      "CantInters":5
     }
     {
       "NombreClub": "Coreano",
-      "Categoria": "Idiomas"
+      "Categoria": "Idiomas",
+      "CantInters":9
     }
     {
       "NombreClub": "Alemán",
-      "Categoria": "Idiomas"
+      "Categoria": "Idiomas",
+      "CantInters": 3
     }
     {
       "NombreClub": "Biología celular",
-      "Categoria": "Biología"
+      "Categoria": "Biología",
+      "CantInters":1
     }
     {
       "NombreClub": "Ecología",
-      "Categoria": "Biología"
+      "Categoria": "Biología",
+      "CantInters":5
     }
     {
       "NombreClub": "Zoología",
-      "Categoria": "Biología"
+      "Categoria": "Biología",
+      "CantInters":4
     }
     {
       "NombreClub": "Biología marina",
-      "Categoria": "Biología"
+      "Categoria": "Biología",
+      "CantInters":6
     }
     {
       "NombreClub": "Botánica",
-      "Categoria": "Biología"
+      "Categoria": "Biología",
+      "CantInters": 2
     }
     {
       "NombreClub": "Ofimática",
-      "Categoria": "Informática"
+      "Categoria": "Informática",
+      "CantInters": 6
     }
     {
       "NombreClub": "Robótica",
-      "Categoria": "Informática"
+      "Categoria": "Informática",
+      "CantInters": 10
     }
     {
       "NombreClub": "Cibernética",
-      "Categoria": "Informática"
+      "Categoria": "Informática",
+      "CantInters": 7
     }
     {
       "NombreClub": "Computación",
-      "Categoria": "Informática"
+      "Categoria": "Informática",
+      "CantInters": 17
     }
     {
       "NombreClub": "Cuentos de hadas",
-      "Categoria": "Lectura"
+      "Categoria": "Lectura",
+      "CantInters": 3
     }
     {
       "NombreClub": "Fábulas",
-      "Categoria": "Lectura"
+      "Categoria": "Lectura",
+      "CantInters": 6
     }
     {
       "NombreClub": "Mitos y leyendas",
-      "Categoria": "Lectura"
+      "Categoria": "Lectura",
+      "CantInters": 18
     }
     {
       "NombreClub": "Novela gótica",
-      "Categoria": "Lectura"
+      "Categoria": "Lectura",
+      "CantInters": 3
     }
     {
       "NombreClub": "Romance paranormal",
-      "Categoria": "Lectura"
+      "Categoria": "Lectura",
+      "CantInters": 2
     }
     {
       "NombreClub": "Aritmetica",
-      "Categoria": "Matemática"
+      "Categoria": "Matemática",
+      "CantInters": 1
     }
     {
       "NombreClub": "Álgebra",
-      "Categoria": "Matemáticas"
+      "Categoria": "Matemáticas",
+      "CantInters":2
     }
 
     {
       "NombreClub": "Geometría",
-      "Categoria": "Matemáticas"
+      "Categoria": "Matemáticas",
+      "CantInters":3
     }
 
     {
       "NombreClub": "Matemáticas aplicadas",
-      "Categoria": "Matemáticas"
+      "Categoria": "Matemáticas",
+      "CantInters":1
     }
 
     {
       "NombreClub": "Matemáticas discreta",
-      "Categoria": "Matemáticas"
+      "Categoria": "Matemáticas",
+      "CantInters": 7
     }
 
     {
       "NombreClub": "Costumbres y tradiciones costarricenses",
-      "Categoria": "Cultura"
+      "Categoria": "Cultura",
+      "CantInters": 10
     }
 
     {
       "NombreClub": "Civilizaciones antiguas",
-      "Categoria": "Cultura"
+      "Categoria": "Cultura",
+      "CantInters": 11
     }
 
    
     {
       "NombreClub": "Economía circular",
-      "Categoria": "Economía"
+      "Categoria": "Economía",
+      "CantInters": 9
     }
 
     {
       "NombreClub": "Economía Lineal",
-      "Categoria": "Economía"
+      "Categoria": "Economía",
+      "CantInters": 9
     }
 
     {
       "NombreClub": "Economía naranja",
-      "Categoria": "Economía"
+      "Categoria": "Economía",
+      "CantInters": 7
     }
     {
       "NombreClub": "Economía mixta",
-      "Categoria": "Economía"
+      "Categoria": "Economía" ,
+      "CantInters": 6
     }
     {
       "NombreClub": "Composición musical",
-      "Categoria": "Música"
+      "Categoria": "Música",
+      "CantInters": 15
     }
     {
       "NombreClub": "Coro",
-      "Categoria": "Música"
+      "Categoria": "Música",
+      "CantInters": 13
     }
     {
       "NombreClub": "Géneros musicales",
-      "Categoria": "Música"
+      "Categoria": "Música",
+      "CantInters": 11
     }
     {
       "NombreClub": "Lectura musical",
-      "Categoria": "Música"
+      "Categoria": "Música",
+      "CantInters": 3
     }
     {
       "NombreClub": "Historia de la música popular",
-      "Categoria": "Música"
+      "Categoria": "Música",
+      "CantInters": 13
     }
     {
       "NombreClub": "Debate político",
-      "Categoria": "Debate"
+      "Categoria": "Debate",
+      "CantInters": 1
     }
     {
       "NombreClub": "Debate socrático",
-      "Categoria": "Debate"
+      "Categoria": "Debate",
+      "CantInters": 3
     }
     {
       "NombreClub": "Debate instructivo",
-      "Categoria": "Debate"
+      "Categoria": "Debate",
+      "CantInters": 6
     }
 	

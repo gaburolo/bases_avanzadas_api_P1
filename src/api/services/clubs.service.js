@@ -96,3 +96,44 @@ exports.getCategoryCount = (req, res) => {
     }
     )
 };
+
+exports.getTop = (req, res) => {
+    model.aggregate([
+        {$project:
+            {"_id":0, "NombreClub":"$NombreClub", "CantInters":"$CantInters"}
+        }
+        ,
+        {
+            $sort:{"CantInters":-1}
+        },
+        {
+            $limit:5
+        }], (err,docs) =>{
+        if(err){
+            res.status(422).send({error:'Error'})
+        }else{
+            res.send({data: docs})
+        }
+    }
+    )
+};
+
+exports.getBottom = (req, res) => {
+    model.aggregate([
+        {
+            $project:{"_id":0, "NombreClub":"$NombreClub", "CantInters":"$CantInters"}
+        },
+        {
+            $sort:{"CantInters":1}
+        },
+        {
+            $limit:5
+        }], (err,docs) =>{
+        if(err){
+            res.status(422).send({error:'Error'})
+        }else{
+            res.send({data: docs})
+        }
+    }
+    )
+};
