@@ -59,6 +59,22 @@ exports.updateStudent = (req, res) => {
     )
 
 };
+
+exports.addClub = (req, res) => {
+    
+    model.updateOne({Usuario: req.params.Usuario},{$push:{ClubesInteres: {"club":req.body.club,"categoria":req.body.categoria}}},
+        (err,docs) =>{
+            if(err){
+                res.status(422).send({error:'Error'})
+            }else{
+                res.send({data: docs})
+            }
+        }
+    )
+
+};
+
+
 exports.deleteStudent = (req, res) => {
     const body = req.body
     model.deleteOne({_id: parseId(req.params.id)},

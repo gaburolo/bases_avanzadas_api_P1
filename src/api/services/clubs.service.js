@@ -38,7 +38,9 @@ exports.insertData = (req,res) => {
     const data = req.body
     model.create(data, (err,docs) =>{
         if(err){
-            res.status(422).send({error:'Error'})
+            //res.status(422).send({error:'Error'})
+            this.addInt(req,res);
+            //console.log(req.body.NombreClub)
         }else{
             res.send({data: docs})
         }
@@ -139,7 +141,8 @@ exports.getBottom = (req, res) => {
 };
 
 exports.addInt = (req,res)=>{
-    model.updateOne({NombreClub: req.params.NombreClub},{$inc:{CantInters:1}},(err,docs) =>{
+    
+    model.updateOne({NombreClub: req.body.NombreClub},{$inc:{CantInters:1}},(err,docs) =>{
         if(err){
             res.status(422).send({error:'Error'})
         }else{
