@@ -13,6 +13,7 @@ router.get(`/${path}/bottomcategory/`, service.getBottom)
 //router.get(`/${path}/:id`, service.getOne);
 router.get(`/${path}/:NombreClub`, service.getOneUser);
 router.post(`/${path}/`, service.insertData);
+router.put(`/${path}/:NombreClub`, service.addInt);
 router.put(`/${path}/:id`, service.updateClub);
 router.delete(`/${path}/:id`, service.deleteClub);
 

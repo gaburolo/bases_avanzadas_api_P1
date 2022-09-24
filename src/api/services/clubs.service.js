@@ -137,3 +137,14 @@ exports.getBottom = (req, res) => {
     }
     )
 };
+
+exports.addInt = (req,res)=>{
+    model.updateOne({NombreClub: req.params.NombreClub},{$inc:{CantInters:1}},(err,docs) =>{
+        if(err){
+            res.status(422).send({error:'Error'})
+        }else{
+            res.send({data: docs})
+        }
+    })
+
+};

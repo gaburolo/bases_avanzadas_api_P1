@@ -10,7 +10,7 @@ const clubSchema = new mongoose.Schema(
             type: String,
             required: true
         },
-        "CantInteresados":{
+        "CantInters":{
             type: Number
         }
     },
