@@ -20,16 +20,18 @@ exports.getOneUser =async (req, res) => {
 };
  
 exports.insertData = async(req,res) => {
-    const {Usuario,Contrasenna,Nombre} = req.body;
+    const {Usuario,Contrasenna,Nombre,Seccion} = req.body;
+
     
     const validacion = await model.findOne({Usuario:Usuario});
     if(validacion){
         //Se podria poner algun mensaje
         res.redirect('/signup/Estudiantes');
     }else{
-        const newAdmin = new model({Usuario, Contrasenna, Nombre});
-        newAdmin.Contrasenna = await newAdmin.encryptPass(Contrasenna);
-        await model.create(newAdmin);
+        const newStudent = new model({Usuario, Contrasenna, Nombre, Seccion});
+        
+        newStudent.Contrasenna = await newStudent.encryptPass(Contrasenna);
+        await model.create(newStudent);
         res.redirect('/signin/Estudiantes');
     }
     
