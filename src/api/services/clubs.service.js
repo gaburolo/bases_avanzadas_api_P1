@@ -61,7 +61,7 @@ exports.getClubesSugeridos = async (req,res) => {
 
 
 exports.insertData = async (req,res) => {
-
+    const UsuarioLogeado=req.user.Usuario;
     const {NombreClub} = req.body;
 
     const consulta=await model.find({NombreClub: NombreClub}).lean();
@@ -71,10 +71,18 @@ exports.insertData = async (req,res) => {
         res.redirect('/inicio/Estudiante');
         return;
     }
+
     const data = req.body;
     data.CantInters=1;
-    data.Sujerido="UsuarioLogueado";
+    data.Sujerido=UsuarioLogeado;
     await model.create(data);
+
+    const student = await modelStudent.find({Usuario:UsuarioLogeado}).lean();
+    var intereses=student[0].ClubesInteres;
+    const cursoSeleccionado=await model.find({NombreClub: NombreClub}).lean();
+    intereses.push(cursoSeleccionado[0])
+    await modelStudent.findOneAndUpdate({Usuario:UsuarioLogeado},{ClubesInteres:intereses});
+
     res.redirect('/inicio/Estudiante');
 };
 
@@ -183,7 +191,7 @@ exports.getReporte = async (req, res) => {
             $limit:5
         }]
     );
-    console.log(consulta2);
+    
     res.render('./principal/inicio_administradores',{consulta1,consulta2,consulta3,consulta4})
 
 };

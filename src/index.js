@@ -14,8 +14,8 @@ const passport = require('passport')
 
 //inicializaciones
 const app=express();
-///require('./config/passport');
-require('./config/passport2');
+require('./config/passport');
+
 
 //Configuraciones
 app.set('port', process.env.PORT || 8000); //Esta línea me dice que si existe un puerto en mi compu que lo use, sino que use el 300
@@ -43,7 +43,7 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-//Variables globales
+
 
 //Rutas (URL's dentro de la carpeta routes)
 
@@ -62,6 +62,7 @@ app.get('/',(req,res)=>{
     res.render('./users/signin_estudiantes');
 });
 
+//Variables globales
 app.use((req,res,next)=>{
     res.locals.user = req.user;
     next();
