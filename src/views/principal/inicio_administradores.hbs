@@ -1,0 +1,123 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/consultas/Administrador" method="get" >TEC Clubs</a>
+     <form action="/signout/Administrador", method="post">
+      <button class="btn btn-outline-light" type="submit">Cerrar Sesión</button>
+     </form>
+  </div>
+</nav>
+
+<p></p>
+<div class="card" style="text-align: center">
+  <p >
+    <h1  style="text-align:center">Consultas del Administrador</h1>
+  </p>
+    <div class="row">
+      <div class="col-sm">
+        <div class="card border-secondary mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Cantidad total de Clubes por Categoría</h5>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Categoría</th>
+                    <th scope="col">Cantidad de Clubes</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  {{#each consulta1}}
+                  <tr>
+                    <th scope="row">{{_id.Categoria}}</th>
+                    <td>{{count}}</td>
+                  </tr>
+                  {{/each}}
+
+              </table>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm">
+      <div class="card border-secondary mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Top 3 de estudiantes con más sugerencias</h5>
+          <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Nombre Completo del Estudiante</th>
+                    <th scope="col">Cantidad de Clubes Sugeridos</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  {{#each consulta2}}
+                  <tr>
+                    <th scope="row">{{NombreC.Nombre}}</th>
+                    <td>{{numberOfCurse}}</td>
+                  </tr>
+                  {{/each}}
+              </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card border-secondary mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Top 5 de Clubes Sugeridos</h5>
+          <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Nombre del Club</th>
+                    <th scope="col">Categoría</th>
+                    <th scope="col">Cantidad de Solicitudes</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  {{#each consulta3}}
+                  <tr>
+                    <th scope="row">{{NombreClub}}</th>
+                    <td>{{Categoria}}</td>
+                    <td>{{CantInters}}</td>
+                  </tr>
+                  {{/each}}
+              </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card border-secondary mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Top 5 de los clubes menos solicitados</h5>
+          <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Nombre del Club</th>
+                    <th scope="col">Categoría</th>
+                    <th scope="col">Cantidad de Solicitudes</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  {{#each consulta4}}
+                  <tr>
+                    <th scope="row">{{NombreClub}}</th>
+                    <td>{{Categoria}}</td>
+                    <td>{{CantInters}}</td>
+                  </tr>
+                  {{/each}}
+              </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+

@@ -1,0 +1,123 @@
+
+     {
+       "Usuario": "valeRodriguez",
+       "Contrasenna": "vale123",
+       "Nombre": "Valery",
+       "PrimerA": "Rodríguez",
+       "SegundoA":"Méndez",
+       "Seccion": "7A",
+       "ClubesInteres":[{"club":"Natación", "categoria":"Deporte"}]
+     }
+     {
+       "Usuario": "ignacioSolano",
+       "Contrasenna": "nacho789",
+       "Nombre": "Ignacio",
+       "PrimerA": "Solano",
+       "SegundoA":"Quirós",
+       "Seccion": "7C",
+       "ClubesInteres":[{"club":"Debate instructivo", "categoria":"Debate"}]
+     }
+     {
+       "Usuario": "ositoRosa",
+       "Contrasenna": "673ositoRosa",
+       "Nombre": "Ximena",
+       "PrimerA": "Rosales",
+       "SegundoA":"Méndez",
+       "Seccion": "9A",
+       "ClubesInteres":[{"club":"Lectura musical", "categoria":"Música"}]
+     }
+     {
+       "Usuario": "pollitoGranjero",
+       "Contrasenna": "p0llit0G",
+       "Nombre": "Alla",
+       "PrimerA": "Mendoza",
+       "SegundoA":"Méndez",
+       "Seccion": "10B",
+       "ClubesInteres":[{"club":"Matemáticas discreta", "categoria":"Matemáticas"}]
+     }
+     {
+       "Usuario": "caballoAzul",
+       "Contrasenna": "morAdo",
+       "Nombre": "Karla",
+       "PrimerA": "Pérez",
+       "SegundoA":"Zúñiga",
+       "Seccion": "11C",
+       "ClubesInteres":[{"club":"Costumbres y tradiciones costarricenses", "categoria":"Cultura"}]
+     }
+     {
+       "Usuario": "alitaDePoll0",
+       "Contrasenna": "litaGómez",
+       "Nombre": "Alana",
+       "PrimerA": "Gómez",
+       "SegundoA":"Pereira",
+       "Seccion": "9C",
+       "ClubesInteres":[{"club":"Costumbres y tradiciones costarricenses", "categoria":"Cultura"},
+          {"club":"Geometría", "categoria":"Matemáticas"},
+          {"club":"Economía circular", "categoria":"Economía"}
+         ]
+     }
+     {
+       "Usuario": "leeMin",
+       "Contrasenna": "beeU9",
+       "Nombre": "Lee",
+       "PrimerA": "Min",
+       "SegundoA":"Ho",
+       "Seccion": "8A",
+       "ClubesInteres":[{"club":"Fábulas", "categoria":"Lectura"}]
+     }
+     {
+       "Usuario": "binH",
+       "Contrasenna": "Hbin1999",
+       "Nombre": "Bin",
+       "PrimerA": "Hyun",
+       "SegundoA":"Ho",
+       "Seccion": "11C",
+       "ClubesInteres":[{"club":"Robótica", "categoria":"Informática"}]
+     }
+     {
+       "Usuario": "carlitos",
+       "Contrasenna": "1991Rugrats",
+       "Nombre":"Carlitos",
+       "PrimerA":"Baldosa",
+       "SegundoA":"Rodríguez",
+       "Sección":"11A",
+       "ClubesInteres":[{"club":"Caligrafía", "categoria":"Arte"}]
+     }
+     {
+       "Usuario": "louMen",
+       "Contrasenna": "27Lou72",
+       "Nombre":"Lourdes",
+       "PrimerA":"Méndez",
+       "SegundoA":"Méndez",
+       "Sección":"11A",
+       "ClubesInteres":[{"club":"Yoga","categoria":"Deporte"}]
+     }
+     {
+       "Usuario": "martinFer",
+       "Contrasenna": "ferA_45",
+       "Nombre":"Fernelly",
+       "PrimerA":"Rodríguez",
+       "SegundoA":"Sánchez",
+       "Sección":"7D",
+       "ClubesInteres":
+            [{"club":"Yoga", "categoria":"Deporte"},
+             {"club":"Dibujo anatómico", "categoria":"Arte"},
+             {"club":"Latín", "categoria":"Idiomas"},
+             {"club":"Ecología", "categoria":"Biología"}
+         ]
+     }
+     {
+       "Usuario": "lucianaMor",
+       "Contrasenna": "luci345",
+       "Nombre":"Luciana",
+       "PrimerA":"Moraga",
+       "SegundoA":"Benavides",
+       "Sección":"8C",
+       "ClubesInteres":
+         [{"club":"Yoga", "categoria":"Deporte"},
+          {"club":"Dibujo anatómico", "categoria":"Arte"}
+         ]
+     }
+
+    
+
